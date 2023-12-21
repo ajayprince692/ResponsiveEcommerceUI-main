@@ -16,7 +16,7 @@ body {
       transparent 2px,
       transparent 4px
     ),
-    linear-gradient(0deg, rgb(85, 212, 253), rgb(1, 75, 183));
+    linear-gradient(0deg, rgb(0, 0, 0), rgb(1, 75, 183));
 }
 
 .logo-container {
@@ -41,7 +41,7 @@ img {
 .form-container {
   max-width: 400px;
   margin: 50px auto;
-  background-color: #fff;
+  background-image: radial-gradient(circle at center center, rgb(192, 239, 210),rgb(47, 129, 239));
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -60,7 +60,7 @@ img {
   text-align: center;
   padding: 10px;
   cursor: pointer;
-  background-color: #ddd;
+  background-color: #fb5b5b;
   color: #333;
 }
 
@@ -89,4 +89,11 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+p{
+  color: #333;
+}
+
+p:hover{
+  color: rgb(3, 109, 28);
 }
